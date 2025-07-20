@@ -1,0 +1,100 @@
+ @font-face {
+  font-family: more-sugar;
+  src: url(more_sugar/MoreSugar-Regular.otf) format("opentype"),
+    url(more_sugar/MoreSugar-Extras.otf) format("opentype");
+}
+
+@font-face {
+  font-family: LeagueSpartan;
+  src: url(League_Spartan/static/LeagueSpartan-SemiBold.ttf) format("truetype");
+}
+ body {
+    font-family: more-sugar;
+            margin: 20px;
+            background-color: #92adc2;
+            color: #333;
+        }
+        .container {
+            background-color: #f0c9a2;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 550px;
+            margin: 30px auto;
+        }
+        h2 {
+            font-family: more-sugar;
+            text-align: center;
+            color: #6b3235;
+            margin-bottom: 25px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #6b3235;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="tel"],
+        textarea {
+            width: calc(100% - 22px); /* Ajuste para padding e border */
+            padding: 11px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box; /* Garante que padding não aumente a largura total */
+        }
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+        button {
+            background-color: #6b3235; /* Um tom de verde mais vibrante */
+            color: white;
+            padding: 13px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 17px;
+            font-weight: bold;
+            width: 100%;
+            transition: background-color 0.3s ease;
+            font-family: more-sugar;
+        }
+        button:hover {
+            background-color: #218838; /* Um verde mais escuro no hover */
+        }
+        .message-box {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .success-message {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error-message {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        /* Opcional: Adicionar ícones para os campos */
+        .input-group {
+            position: relative;
+        }
+        .input-group label {
+            padding-left: 0;
+        }
+        .input-group input,
+        .input-group textarea {
+            padding-left: 15px; /* Espaço para o ícone, se for adicionado */
+        }
