@@ -1,0 +1,76 @@
+
+.corpo-carrossel {
+  text-align: center;
+  padding: 20px;
+  font-family: "League Spartan", sans-serif;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 40px;
+  border-radius: 20px;
+  border: 3px solid;
+}
+
+.corpo-carrossel h1 {
+  font-size: 2.5em;
+  color: #6b3235;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.carrossel-container {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 3px solid rgba(0, 0, 0, 0.142);
+}
+
+.carrossel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-slide img {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  margin-top: -30px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  user-select: none;
+  background-color: #6b3235;
+  border: 2px solid black;
+  z-index: 2;
+}
+
+.next {
+  right: 10px;
+  border-radius: 50%;
+  top: 250px;
+}
+.prev {
+  left: 10px;
+  top: 250px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #3b1b1d;
+}
