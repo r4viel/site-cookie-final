@@ -74,3 +74,9 @@
 .next:hover {
   background-color: #3b1b1d;
 }
+@media screen and (max-width: 768px) {
+ .corpo-carrossel{
+  width: 100%;
+  margin-left: -20px;
+ }
+}
