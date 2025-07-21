@@ -165,18 +165,26 @@ h1 {
 /* Contatos css */
 
 .conteudo_contatos {
-  font-family: more-sugar;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap; /* se quiser que quebre linha */
+  gap: 20px;
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 25px 20px;
   background-color: white;
   border: 3px solid;
   border-radius: 20px;
-  margin: 50px auto;
-  padding: 25px 20px;
-  max-width: 1100px;
-  gap: 20px;
+  font-family: more-sugar;
 }
+
+.conteudo_contatos > div {
+  flex: 1;
+  min-width: 0;
+  word-break: break-word; /* força quebra de texto longo */
+}
+
 
 .conteudo_contatos p {
   color: #6b3235;
