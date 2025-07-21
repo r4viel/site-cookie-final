@@ -303,7 +303,7 @@ h1 {
     width: 100%;
     flex-direction: column;
     #esquerda {
-      width: 84%;
+      width: 100%;
       flex-direction: column;
       #esquerda2 {
         width: 25%;
