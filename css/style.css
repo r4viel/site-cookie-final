@@ -362,5 +362,8 @@ h1 {
       width: 17em;
     }
   }
-
+ #direita{
+   margin-left: 35px;
+   margin-right: 35px;
+ }
 }
