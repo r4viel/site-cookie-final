@@ -362,4 +362,7 @@ h1 {
       width: 17em;
     }
   }
+  h2{
+    text-align: none;
+  }
 }
