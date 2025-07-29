@@ -351,8 +351,8 @@ h1 {
   .itens_produtos{
     width: 20em;
     img{
-      heigth: 17em;
-      max-witdth: 17em;
+      height: 17em;
+      max-width: 17em;
     }
   }
 }
