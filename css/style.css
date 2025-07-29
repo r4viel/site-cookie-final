@@ -355,4 +355,11 @@ h1 {
       max-width: 17em;
     }
   }
+  #produtos{
+    display: inline;
+    .img-produto{
+      height: 17em;
+      width: 17em;
+    }
+  }
 }
