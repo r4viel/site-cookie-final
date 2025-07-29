@@ -307,6 +307,7 @@ h1 {
 
 /* Desing Responsivo */
 @media screen and (max-width: 768px) {
+  
   .corpo {
     width: 100%;
     flex-direction: column;
@@ -346,5 +347,12 @@ h1 {
   }
   .direita_contatos{
     border: none;
+  }
+  .itens_produtos{
+    width: 20em;
+    img{
+      heigth: 17em;
+      max-witdth: 17em;
+    }
   }
 }
