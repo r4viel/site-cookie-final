@@ -181,8 +181,8 @@ h1 {
 
 .conteudo_contatos > div {
   flex: 1;
-  min-width: 0;
-  word-break: break-word; /* força quebra de texto longo */
+  /* min-width: 0; */
+  /* word-break: break-word; força quebra de texto longo */
 }
 
 
@@ -318,5 +318,27 @@ h1 {
         flex-direction: column;
       }
     }
+  }
+  .conteudo_contatos{
+    flex-flow: column wrap;
+  }
+  .conteudo_contatos > div{
+    word-break:normal;
+    flex: 2;
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+  .titulos_conteudos{
+    display: inline;
+    font-size: 18px;
+    width: auto;
+  }
+  .esquerda_contatos{
+    width: auto;
+    padding-right: 3em;
+  }
+  .direita_contatos{
+    border: none;
   }
 }
