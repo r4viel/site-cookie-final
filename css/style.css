@@ -311,8 +311,14 @@ h1 {
     width: 100%;
     flex-direction: column;
     #esquerda {
-      width: 100%;
+      width: 20em;
       flex-direction: column;
+      margin-bottom: 10px;
+      margin-right: 0;
+      margin-left: 0;
+      img{
+        height: 17em;
+      }
       #esquerda2 {
         width: 25%;
         flex-direction: column;
